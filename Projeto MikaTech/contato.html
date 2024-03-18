@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/contato.css">
+    <link rel="icon" href="imagens/favicon.ico">
+     <title>Fale Conosco</title>
+</head>
+<body>
+    <a href="index.html"><div class="menu">
+        <span>Voltar à Página Inicial</span>
+    </div></a>
+    <section>
+        <h3>No que podemos ajudar?</h3>
+        <form id="contato-form">
+        <label>*Nome</label>
+        <input type="text" name="name" placeholder="Nome" autocomplete="=off" required>
+        <label>*Email</label>
+        <input type="email" name="email" placeholder="Email" autocomplete="off" required>
+        <label>*Telefone</label>    
+        <input type="tel" name="Telefone" placeholder="Telefone" autocomplete="off" required>
+        <label>Mensagem</label>
+        <textarea name="Message" cols="30" rows="10" placeholder="Digite sua mensagem"></textarea>
+        <button type="submit" name="enviar" id="subBottom">ENVIAR</button>
+        </form>
+    </section>
+    
+    <div class="cobertura">
+        <img src="imagens/Logo_Branco.png" alt="Logo da MikaTech">
+        <p>Obrigado por entrar em contato.<br>Um de nossos profissionais irá retornar o mais breve possível.<br><br>
+        Redirecionando para a pagina principal em: <span name="tempo">5</span>s</p>
+      </div>
+      <script src="js/confContato.js"></script>
+</body>
+</html>

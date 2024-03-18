@@ -1,0 +1,107 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-image: url(../imagens/background_blue.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    overflow-x: hidden;
+  }
+
+  h1 {
+    text-align: center;
+    color: #fff;
+  }
+
+  .membro-equipe {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+
+  .membro-equipe img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+  }
+
+  .membro-equipe-info {
+    margin-left: 20px;
+  }
+
+  .membro-equipe h3 {
+    margin-top: 0;
+  }
+
+  .membro-equipe p {
+    margin: 0;
+  }
+
+  .menu {
+    text-align: center;
+    margin-bottom: 20px;
+    background-color: rgba(19, 53, 88, 0.9);
+    padding: 10px;
+    display: inline-block;
+    border:3px solid white;
+    position: fixed;
+    border-radius: 5px;
+  }
+
+  .menu:hover {
+    background-color: rgba(9, 36, 63, 1);
+  }
+
+  .menu span {
+    text-decoration: none;
+    color: #fff;
+    
+  }
+
+.historia{
+    background-color: rgba(14, 168, 172, 0.15);
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding: 20px;
+    color: white;
+    border-radius: 15px 15px / 15px 15px;
+    font-weight: bolder;
+    letter-spacing: 0.7px;
+}
+
+  .rodape {
+  text-align: center;
+  font-size: 12px;
+  margin-top: 50px;
+  color: #fff;
+  position:relative;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  padding: 10px 0;
+  background-color: rgba(19, 53, 88, 0.9);
+}
+
+  .column {
+    float: left;
+    width: 33.33%;
+    padding: 0 10px;
+    box-sizing: border-box;
+	transition: transform 300ms ease;
+  }
+
+  .column:hover{
+	  transform: scale(1.03);
+  }
+
+.membro-equipe{
+    background-color: rgba(14, 168, 172, 0);
+    color: white;
+    border: 3px solid;
+}

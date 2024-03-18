@@ -1,0 +1,147 @@
+body {
+    font-family: arial, sans-serif;
+    background: #051540;
+    margin: 0;
+}
+
+.hero{
+    background-image: url(../imagens/bg-3.png);
+    height: 500px;
+    background-position: right center;
+    background-size: cover;
+    border-top: 1px solid transparent;
+}
+
+.hero-content{
+    text-align: center;
+    color: white;
+    margin-top: 150px;
+}
+
+.hero-content h1{
+    text-transform: uppercase;
+    font-size: 46px;
+    text-shadow: 3px 3px 2px #333;
+}
+
+.hero-content p{
+    background: rgba(0,0,0,0.7);
+    display: inline-block;
+    border-bottom: 2px solid white;
+    padding: 15px;
+    
+}
+
+.hero nav ul{
+    text-align: right;
+    margin: 20px 40px 0 0;
+    
+}
+
+.hero nav li{
+    display: inline-block;
+    list-style: none;
+    border: 3px solid white;
+    margin-left: 10px;
+    border-radius: 5px;
+}
+
+.hero nav a{
+    background:rgba(19, 53, 88, 0.9);
+    display: block;
+    padding: 15px;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 12px; 
+    letter-spacing: 2px;
+    border-radius: 5px;
+    
+}
+
+.hero nav a:hover{
+    background: rgba(9,36,63,1);
+    
+}
+.hero nav{
+    position: fixed;
+    z-index: 9;
+    left:-30px;
+}
+
+main{
+    width: 80%;
+    margin: auto;
+}
+
+.content-section{
+    background-color: white;
+    padding: 15px;
+    margin-top: 15px;
+    overflow: auto;
+}
+
+.card{
+    width: 32%;
+    float: left;
+    box-sizing: border-box;
+}
+
+.card-1, .card-2{
+    margin-right: 2%;
+}
+.card-1, .card-2, .card-3{
+    border: 3px solid #051540;
+    transition: transform .1s ease;
+}
+
+
+.card img{
+    width: 100%;
+    display: block;
+}
+.card-1:hover{transform: scale(1.01);}
+.card-2:hover{transform: scale(1.01);}
+.card-3:hover{transform: scale(1.01);}
+
+.card p {
+    background-color: #051540;
+    color: white;
+    margin: 0;
+    padding: 15px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: bold;
+}
+
+.maps{
+    padding-top: 16px;
+    width: 100%;
+    height: 450px;
+    margin-bottom: 50px;
+}
+
+.maps iframe{
+    width: 1075px;
+}
+
+header h2{
+    background-color: #051540;
+    margin: auto;
+    text-align: 10px
+    padding: 8px;
+    border: 3px solid #051540;
+    color: white;
+
+}
+.rodape{
+    background-color: gray;
+    text-align: center;
+    font-size: 14px;
+    color: white;
+    text-shadow: 3px 3px 5px #000;
+    height: 60px;
+    text-align: center;
+    margin-top: 15px;
+    line-height: 60px;
+}
